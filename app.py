@@ -64,5 +64,4 @@ def index():
 
     return render_template('index.html', movie_list=movie_list, recommendations=zip(recommendations, posters))
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
